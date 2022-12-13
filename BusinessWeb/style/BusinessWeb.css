@@ -1,0 +1,188 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.topDiv {
+	width: 100%;
+	height: 66px;
+	background: black;
+	padding: 24px 200px;
+	color: white;
+	text-align: right;
+
+}
+
+ 
+
+.menu > li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.menu > li > a {
+	cursor: pointer;
+    color: white; 
+    text-decoration: none;
+   }
+
+ .menu > li > a:hover {
+    color: #DEB100;
+    text-decoration: none;
+   }
+
+.info {
+	width: 100%;
+	height: 124px;
+	background: #f9f9f9 ;
+	padding: 24px 300px ;
+}
+.infoFull > div {
+	display: inline-block;
+	width: 49%;
+}
+
+.infoLeft > img {
+	float: left;
+
+}
+
+.infoRight {
+	text-align: right;
+}
+.infoRight > a:hover{
+	color: darkgrey;
+	text-decoration: none;
+}
+.infoA {
+	color: black;
+	text-decoration: none;
+}
+
+.content {
+	width: 100%;
+	text-align: center;
+	margin-top:20px ;
+
+}
+
+.content > img{
+	width: 980px;
+	height: 300px;
+	margin-bottom:10px ;
+}
+.content > button{
+	cursor: pointer;
+	margin-top: 40px;
+	width:328px ;
+	height: 49px;
+	background:#deb100 ;
+	color: white ;
+	font-size:26px ;
+	border: none;
+
+}
+.content > button:hover{
+	background-color: #7A6200;
+	text-decoration: none;
+
+}
+.fullDiv {
+	width: 100%;
+	padding: 24px 200px;
+}
+.fullDivContent > div{
+	width: 33%;
+	height: 481px;
+	background: #f9f9f9;
+	display: inline-block;
+	vertical-align: top;
+	padding: 50px;
+	font-size: 15px;
+	font-style:italic;
+}
+
+.fullDivContent > div > h2 {
+	line-height: 40px;
+	font-style: bald;
+	width: 19px;
+	display: inline;
+	border-bottom: 1px solid black;
+}
+
+.serviceList {
+	line-height: 30px;
+}
+
+.footer {
+	width: 100%;
+	height: 137px;
+	background: black;
+	padding: 24px 200px;
+	color: white;
+
+	
+}
+.footerLeft{
+	width: 49%;
+	text-align: left;
+	position: relative;
+	top: 15px;
+}
+.footerRight{
+	text-align: right;
+}
+.footerMenu > li{
+	display: inline-block;
+	margin-right: 0 20px;
+	border-right: 0.1px white solid;
+	padding: 0 13px;
+	margin: 0 -2px;
+
+}
+
+.footerMenu > li > a{
+	cursor: pointer;
+	color: white; 
+    text-decoration: none;
+
+}
+.footerMenu > li > a:hover{
+    color: #DEB100;
+    text-decoration: none;
+   }
+.footerMenu > li:last-child{
+	border-right: none;
+}
+.socialMedia{
+		text-align: right;
+		display: inline-block;
+		padding: 5px 5px;
+		margin: 0px 0px;
+}
+
+
+.socialMedia > span {
+	
+	cursor: pointer;
+}
+	
+.chat{
+	cursor: pointer;
+	padding: 14px 5px;
+	margin-bottom:5px ;
+	width: 160PX;
+	height: 50px;
+	background: #deb100;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	right: 15px;
+	bottom: 0;
+	position: fixed;
+}
+.chat:hover{
+	background-color:#7A6200 ;
+	text-decoration: none;
+}

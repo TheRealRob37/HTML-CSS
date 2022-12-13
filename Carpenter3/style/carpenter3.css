@@ -1,0 +1,276 @@
+@font-face{
+	src: url(../fonts/28d74e9b-4ea9-4e3c-b265-c67a72c66856.woff.);
+	font-family: myFont;
+} 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Poor+Story&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Poor+Story&display=swap');
+*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: myFont;
+}
+
+
+.header{
+	width: 100%;
+	height: 400px;
+	background: url(../images/wixWood.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	background-size: cover;
+}
+.header > img {
+	margin: 40px 0 20px 0;
+}
+.header > h1 {
+	font-size: 40px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.header > h3 {
+	font-size: 20px;
+}
+.menuDiv {
+	background: #B63D32;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	padding: 17px 0;
+}
+.menu > li {
+	font-family: myFont;
+	display: inline-block;
+	margin: 0 25px;
+	font-size: 18px;
+}
+.menu > li > a {
+	transition: 0.3s;
+    color: white; 
+    text-decoration: none;
+   }
+
+ .menu > li > a:hover {
+    color: #3c1d17;
+    text-decoration: none;
+}
+
+.infoDiv {
+	width: 100%;
+	height: 400px;
+	background: #efefef;
+	text-align: center;
+}
+
+.infoDiv h1 {
+	font-size: 42px;
+	color: #b63d32;
+}
+
+.infoDiv p {
+	font-size: 17px;
+		font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.infoDiv h3 {
+	font-size: 25px;
+	margin-top: 50px;
+}
+.infoDiv button{
+	background: #b63d32;
+	color: white;
+	font-size: 17px;
+	width: 142px;
+	height: 40px;
+	border: none;
+	cursor: pointer;
+	margin-top: 30px;
+	transition: 0.3s;
+}
+.infoDiv button:hover{
+	background: #3c1d17;
+
+}
+.slash {
+	color: #b63d32;
+}
+.info {
+	width: 35%;
+	margin: 0px auto;
+	padding: 50px 0;
+
+}
+.slider {
+	width: 100%;
+	height: 486px;
+	position: relative;
+}
+.skew {
+	height: 486px;
+	width: 300px;
+	background: #efefef;
+	padding: 40px 40px 40px 60px;
+	z-index: 1;
+	color: #b63d32;
+	right: 300px;
+	position: absolute;
+	transform: skew(-15deg);
+}
+
+.skew > h1{
+	transform: skew(15deg);
+}
+
+hr {
+	width: 100px;
+	height: 5px;
+	background: lightgrey;
+	border: none;
+	margin: 40px 0;
+}
+.footerTop {
+	width: 100%;
+	height: 190px;
+	background: #3c1d17;
+	color: white;
+	text-align: center;
+	padding: 40px 0;
+}
+.colorText{
+	color: #b63d32;
+}
+.footerDown {
+	width: 100%;
+	height: 190px;
+	background: #b63d32;
+	color: white;
+	text-align: center;
+	padding: 40px 0;
+}
+.line::before{
+	content:"_____" ;
+	position: relative;
+	top: -10px;
+	padding: 0 10px;
+	font-weight: bold;
+}
+.line::after{
+	content:"_____" ;
+	position: relative;
+	padding: 0 10px;
+	top: -10px;
+	font-weight: bold;
+}
+.footerDown a{
+	color: white;
+	text-decoration: underline;
+}
+.miniLogo {
+	width: 25px;
+	height: 30px;
+}
+.chat{
+	cursor: pointer;
+	padding: 14px 0;
+	width: 160PX;
+	height: 50px;
+	background: #B63D32;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	right: 15px;
+	bottom: 5px;
+	position: fixed;
+	z-index: 10;
+	transition: 0.3s;
+	border: 0.5px solid #ffffff63;
+}
+.chat:hover{
+	background-color:#3c1d17 ;
+	text-decoration: none;
+}
+.servicesDiv {
+	width: 100%;
+	height: 1000px;
+	background: #efefef;
+	text-align: center;
+}
+.servicesDiv h1 {
+	font-size: 42px;
+	color: #b63d32;
+}
+.servicesDiv span{
+	font-size: 17px;
+	font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.ServicesTop {
+	width: 45%;
+	margin: 0px auto;
+	padding: 50px 0;
+}
+.nkarnerContent{
+	display: flex;
+	justify-content: center;
+}
+.nkarnerContent > div {
+	width: 291px;
+	height: 481px;
+	background: #f9f9f9;
+	/*display: inline-block;
+	vertical-align: top;*/
+	padding: 0px;
+	font-size: 15px;
+	margin: 50px 15px;
+	border: 0.1px lightgrey solid;
+	}
+.nkarnerContent > div > h1{
+	padding: 0 17px;
+	margin-top: 20px;
+	color: black;
+	font-size: 26px;
+	transition: 0.3s;
+}
+.nkarnerContent > div > h1:hover{
+	cursor: pointer;
+	color: grey;
+	text-decoration: none;
+}
+.nkarnerContent > div > p, span{
+	margin-top: 20px;
+	color: black;
+	font-size: 20px;
+	margin: 10px auto;
+	}
+.nkarnerContent > div > button{
+	cursor: pointer;
+	margin-top: 40px;
+	width:132px ;
+	height: 38px;
+	background:#B63d32 ;
+	color: white ;
+	font-size: 12px ;
+	border: 0.5px white solid;
+	margin-top: 20px ;
+	transition: 0.4s;
+}
+
+.nkarnerContent > div > button:hover{
+	background-color:#3c1d17 ;
+	text-decoration: none;
+}
+.nkarnerContent > div > img{
+	width: 290px;
+	height: 194px;
+}
+.nkarnerContent > div > img:hover{
+	opacity: 1;
+}
+.bonusContent {
+	width: 50%;
+	height: 80px;
+	margin: 0px auto;
+}
